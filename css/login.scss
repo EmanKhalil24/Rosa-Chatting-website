@@ -1,0 +1,125 @@
+@use './global';
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: var(--alt-color);
+    font-family: 'Secular One', sans-serif;
+}
+.login{
+    height: 100%;
+    width: 100%;
+    @extend %center;
+    .container{
+        @extend %container;
+        @extend %center;
+        height: 94%;
+        margin-top: 2%;
+        display: flex;
+        .box-log{
+            width: 35%;
+            height: 50%;
+            background: rgb(248, 244, 244);
+            box-shadow: 1px 1px 10px #d464869a;
+            border-radius: 10px;
+            @extend %center;
+            .cont{
+                width: 88%;
+                height: 93%;
+            }
+            .log-head{
+                margin-top: -3%;
+                width: 100%;
+                height: 12%;
+                h2{
+                    font-size: 30px;
+                    color: var(--main-color);
+                }
+                hr{
+                    background: rgba(212, 212, 212, 0.774);
+                    height: 1px;
+                    border: none;
+                    margin-top: -4%;
+                }
+            }
+            .log-req{
+                background: rgb(247, 179, 179);
+                width: 100%;
+                height: 11%;
+                @extend %center;
+                border-radius: 5px;
+                font-size: 17px;
+                color: rgb(83, 47, 47);
+                box-shadow: 1px 1px 3px #d464869a;
+                margin-top: 20px;
+                display: none;
+            }
+            .log-form{
+                width: 100%;
+                height: 68%;
+                padding: 10px 5px 0 5px;
+                label{
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+                input{
+                    width: 100%;
+                    padding: 8px;
+                    font-size: 15px;
+                    margin: 3px 0 6px 0;
+                    border: 1px solid rgb(211, 211, 211);
+                    border-radius: 5px;
+                    outline: none;
+                    box-shadow: 1px 1px 2px #c0bdbe75;
+                }
+                .password-container{
+                    position: relative;
+                  }
+                  .password-container input[type="password"],
+                  .password-container input[type="text"]{
+                    width: 100%;
+                    padding: 12px 36px 12px 12px;
+                    box-sizing: border-box;
+                  }
+                  .fa-eye{
+                    position: absolute;
+                    top: 28%;
+                    right: 4%;
+                    cursor: pointer;
+                    color: lightgray;
+                  }
+                .button{
+                    width: 100%;
+                    height: 37px;
+                    font-size: 17px;
+                    margin-top: -9px;
+                    background-color: var(--main-color);
+                    color: var(--alt-color);
+                    border-radius: 5px;
+                    border: none;
+                    cursor: pointer;
+                    box-shadow: 1px 1px 2px #c0bdbe75;
+                    &:hover{
+                        background-color: var(--add-color);
+                        border: none;
+                        transition: all 0.4s;
+                    }
+                }
+            }
+            .log-no{
+                width: 100%;
+                height: 8%;
+                text-align: center;
+                margin-top: -10%;
+                a{
+                    text-decoration: none;
+                    color: rgb(90, 90, 90);
+                }
+            }
+        }
+    }
+}
