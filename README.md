@@ -4,9 +4,14 @@ A simple website for Chatting, created by using
  
 ## To Run this project:
 ` Please first install Xampp `
-###### From here: http://localhost/dashboard/
+
+###### From here: 
+```
+http://localhost/dashboard/
+```
 
 ` Then go to file htdocs and create folder named "project_web" `
+######
 ` Download this files into it `
 
 
