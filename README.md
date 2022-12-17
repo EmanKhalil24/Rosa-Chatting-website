@@ -16,4 +16,4 @@ http://localhost/dashboard/
 ######
 ` Open xammp and start (Apache , MySQL) `
 
-<h1 align="center" style="color:green">Now, You can enjoy!</h1>
+<h1 align="center" color="green">Now, You can enjoy!</h1>
