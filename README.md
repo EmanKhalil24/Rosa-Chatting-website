@@ -6,4 +6,7 @@ A simple website for Chatting, created by using
 ` Please first install Xampp `
 ###### From here: http://localhost/dashboard/
 
-** Then go to file htdocs and create folder named "project_web" **
+` Then go to file htdocs and create folder named "project_web" `
+` Download this files into it `
+
+
